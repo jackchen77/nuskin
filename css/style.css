@@ -91,6 +91,7 @@ a.mobile_buycar{width: 30px;height: 30px;background: url(../images/mobile_buycar
 a.rxbtn{margin-top:50px;}
 .pro_list li{display: none;}
 .pro_list #hot_more li{display: block;}
+#hot_more{display: none;}
 
 .kv_pic li{position: relative;}
 .hot_title{position: relative;}

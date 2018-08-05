@@ -16,10 +16,11 @@ var mySwiper2= new Swiper('.about_pic', {
 $(function(){
 	$("#hot_btn_more").click(function(){
 		$(".more_loading").show();
+		$("#hot_btn_more").hide();
 		setTimeout(function(){
 			$(".more_loading").hide();
-			$("#hot_more").append(hotcon);
-		},1000)
+			$("#hot_more").fadeIn(1000);
+		},500)
 	})
 })
 
