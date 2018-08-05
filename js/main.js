@@ -20,7 +20,7 @@ $(function(){
 		setTimeout(function(){
 			$(".more_loading").hide();
 			$("#hot_more").fadeIn(1000);
-		},500)
+		},300)
 	})
 })
 

@@ -233,3 +233,8 @@ a.rxbtn{margin-top:50px;}
 .more_loading{width: 100%;text-align: center;display: none;}
 .more_loading img{width:20px;margin:0 auto;}
 .gpic .abtn:hover,.gpic .abtn2:hover,.kv_pic li a:hover{background: #f4f4f4;text-decoration: none;}
+.box_show{-webkit-animation:box_show_animation 1s  ease-in-out;opacity: 1;display: block;}
+@-webkit-keyframes box_show_animation{
+  0%{-webkit-transform:translateY(-30px);opacity: 0;}
+  100%{-webkit-transform:translateY(0);opacity: 1;}
+}
