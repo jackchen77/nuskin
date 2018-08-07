@@ -36,7 +36,6 @@ $(function(){
 			$("#hot_more").fadeIn(1000);
 		},300)
 	});
-
 	navaSetting();
 	//checkNaviHide();
 	bottomNavtoggle();
@@ -85,8 +84,6 @@ function bottomNavtoggle(){
 
     });
 }
-
-
 function checkNaviHide(){
 	var currTop = $(window).scrollTop();
 	var timeout;
