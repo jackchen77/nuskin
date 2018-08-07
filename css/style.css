@@ -12,8 +12,11 @@ button,select,textarea {
 .nav1 a{color: #999;float:left;font-size:12px;}
 .nav1 a.city i{width: 10px;height: 15px;background: url(../images/icon_city.png);float:left;margin:0 10px 0 0}
 .nav1 em{float:left;margin:0 20px;width:1px;height: 9px;background: #aaa;margin-top:3px;}
+
 .manv_wrap{text-align: center;}
-.mnav1{padding-top:25px;display: inline-block;margin:0 auto;}
+
+.bottom-Menu{position: fixed; left: 0; bottom: 0; z-index: 30; width: 100%; background-color: #fff; -webkit-box-shadow: #666 0px 0px 10px}
+.mnav1{padding-top:10px;display: inline-block;margin:0 auto;}
 .mnav1 a{color: #999;float:left;font-size:12px;}
 .mnav1 a.city i{width: 10px;height: 15px;background: url(../images/icon_city.png);float:left;margin:0 10px 0 0}
 .mnav1 em{float:left;margin:0 20px;width:1px;height: 9px;background: #aaa;margin-top:3px;}
@@ -249,3 +252,7 @@ a.rxbtn{margin-top:50px;}
   0%{-webkit-transform:translateY(-30px);opacity: 0;}
   100%{-webkit-transform:translateY(0);opacity: 1;}
 }
+
+
+
+
