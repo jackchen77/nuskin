@@ -14,10 +14,17 @@ var mySwiper2= new Swiper('.about_pic', {
 	paginationClickable: true, 
 });
 
-var h = $(window).height();
-if(h > 690){
-	$('.mnav1').css({'padding-bottom':'20px'});
-}
+$(window).resize(function(){
+	var h = $(window).height();
+	if(h > 690){
+		$('.mnav1').css({'padding-bottom':'20px'});
+	}
+	else{
+		$('.mnav1').css({'padding-bottom':'0'});
+	}
+});
+$(window).resize();
+
 
 $(function(){
 	$("#hot_btn_more").click(function(){

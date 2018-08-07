@@ -15,11 +15,11 @@ button,select,textarea {
 
 .manv_wrap{text-align: center;}
 
-.bottom-Menu{position: fixed; left: 0; bottom: 0; z-index: 30; width: 100%; background-color: #fff; -webkit-box-shadow: #666 0px 0px 10px}
+.bottom-Menu{position: fixed; left: 0; bottom: -100px; z-index: 30; width: 100%; background-color: #fff; -webkit-box-shadow: #666 0px 0px 10px}
 .mnav1{padding-top:10px;display: inline-block;margin:0 auto;}
-.mnav1 a{color: #999;float:left;font-size:12px;}
+.mnav1 a{color: #999;float:left;font-size:14px;}
 .mnav1 a.city i{width: 10px;height: 15px;background: url(../images/icon_city.png);float:left;margin:0 10px 0 0}
-.mnav1 em{float:left;margin:0 20px;width:1px;height: 9px;background: #aaa;margin-top:3px;}
+.mnav1 em{float:left;margin:0 20px;width:1px;height: 13px;background: #aaa;margin-top:3px;}
 
 .header_btn{float:right;padding:20px 0 0;}
 .header_btn a{float:left;margin:5px 10px;}
@@ -96,7 +96,7 @@ a.mobile_buycar{width: 30px;height: 30px;background: url(../images/mobile_buycar
 .title_name{font-size:18px;position: relative;text-align: center;padding:50px 30px 30px;}
 .title_name i{width: 30px;height: 8px;background: #DCD52C;display: block;left: 50%;margin-left:-15px;position: absolute;z-index: 1;top: 110px;}
 .btn_more_wrap{text-align: center;}
-.btn_more,a.btn_more{background: #148BAD;font-size:14px;color:#fff;border-radius: 3px;height: 45px;width: 200px;text-align: center;line-height: 45px;cursor: pointer;margin:20px auto;display: block;text-decoration: none;}
+.btn_more,a.btn_more{background: #148BAD;font-size:14px;color:#fff;border-radius: 3px;height: 45px;width: 200px;text-align: center;line-height: 45px;cursor: pointer;margin:0 auto;display: block;text-decoration: none;}
 .btn_more:hover,a.btn_more:hover{background: #117997;}
 a.rxbtn{margin-top:50px;}
 .pro_list li{display: none;}
@@ -107,6 +107,9 @@ a.rxbtn{margin-top:50px;}
 .hot_title{position: relative;}
 .hot_title i{width: 30px;height: 6px;background: #DCD52C;display: block;left: 50%;margin-left:-15px;position: absolute;z-index: 1;hottom: -7px;}
 .pro_list .wrap:hover{box-shadow: 0px 0px 10px #ccc;}
+.pro_list li:hover img.box_shadow{opacity: 1}
+.pro_list li img.box_shadow{opacity: 0}
+
 @media (max-width:768px){
 	.about_pic{width:250%;}
 	.right_con{text-align: center;padding-left:0;}
@@ -134,7 +137,7 @@ a.rxbtn{margin-top:50px;}
 	.gpic .abtn{width: 160px;height: 40px;background: #fff;color: #000;text-align: center;line-height: 40px;font-size:14px;position: absolute;z-index: 10;top:60%;left: 50%;margin-left:-80px;display: block;border-radius: 3px;}
 	.ruxin{background: url(../images/bg1.png) no-repeat -100% -100px;}
 	.gpic .abtn2{width: 160px;height: 40px;background: #fff;color: #000;text-align: center;line-height: 40px;font-size:14px;position: absolute;z-index: 10;top:65%;left: 10%;display: block;border-radius: 3px;}
-
+	.box_shadow{opacity: 0;}
 }
 @media (min-width:768px){
 	.about_pic{width:250%;}
