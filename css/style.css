@@ -35,9 +35,12 @@ a.mobile_buycar{width: 30px;height: 30px;background: url(../images/mobile_buycar
 
 .kv{position: relative;}
 .kv_pic .bg,.mkv_pic .bg{width: 100%;}
-.kv_pic .best-you{position: absolute; left: 62%; top: 28%; width: 24%;}
-.kv_pic .title{position: absolute; left: 62.5%; top: 35.5%; font-size: 24px; font-weight: bold; font-family: '微软雅黑';}
-.kv_pic .description{position: absolute; left: 62.5%; top: 45.5%; font-size: 11px; font-family: '微软雅黑'; width: 30%;}
+.kv_pic .pc-best-you{position: absolute; left: 62%; top: 28%; width: 24%;}
+.kv_pic .pc-title{position: absolute; left: 62.5%; top: 35.5%; font-size: 24px; font-weight: bold; font-family: '微软雅黑';}
+.kv_pic .pc-description{position: absolute; left: 62.5%; top: 45.5%; font-size: 11px; font-family: '微软雅黑'; width: 30%;}
+
+.kv_pic .m-best-you{position: absolute; left: 7.5%; top: 56%; width: 85%;}
+.kv_pic .m-title{position: absolute; left:0; top: 61.2%; font-size: 30px; font-weight: bold; font-family: '微软雅黑'; text-align: center; width: 100%;}
 
 .kv_nav{background: #F7F7F7;height: 40px;position: relative;}
 .kv_pagination{position: absolute;left: 50%;top: 50%;transform: translate(-50%,-50%);}
@@ -124,12 +127,13 @@ a.rxbtn{margin-top:50px;}
 	.logo img{width: 60px;}
 	.pro_list{padding:0 30px;}
 	.pro_list li .name, .about_list li .name,.pro_list li .price, .about_list li .price{font-size:18px;}
+	.hot_pro_list li .wrap, .about_list li .wrap{border: none;}
 	.kv_pic li a{width: 160px;height: 40px;background: #fff;color: #000;text-align: center;line-height: 40px;font-size:14px;position: absolute;z-index: 10;bottom:10%;left: 50%;margin-left:-80px;border-radius: 3px;}
-.gpic{position: relative;}
-.gpic h3{position: absolute;z-index: 10;color: #fff;font-size:32px;width: 100%;text-align: center;top: 25%;}
-.gpic .abtn{width: 160px;height: 40px;background: #fff;color: #000;text-align: center;line-height: 40px;font-size:14px;position: absolute;z-index: 10;top:60%;left: 50%;margin-left:-80px;display: block;border-radius: 3px;}
-.ruxin{background: url(../images/bg1.png) no-repeat -100% -100px;}
-.gpic .abtn2{width: 160px;height: 40px;background: #fff;color: #000;text-align: center;line-height: 40px;font-size:14px;position: absolute;z-index: 10;top:65%;left: 10%;display: block;border-radius: 3px;}
+	.gpic{position: relative;}
+	.gpic h3{position: absolute;z-index: 10;color: #fff;font-size:32px;width: 100%;text-align: center;top: 25%;}
+	.gpic .abtn{width: 160px;height: 40px;background: #fff;color: #000;text-align: center;line-height: 40px;font-size:14px;position: absolute;z-index: 10;top:60%;left: 50%;margin-left:-80px;display: block;border-radius: 3px;}
+	.ruxin{background: url(../images/bg1.png) no-repeat -100% -100px;}
+	.gpic .abtn2{width: 160px;height: 40px;background: #fff;color: #000;text-align: center;line-height: 40px;font-size:14px;position: absolute;z-index: 10;top:65%;left: 10%;display: block;border-radius: 3px;}
 
 }
 @media (min-width:768px){
@@ -152,11 +156,11 @@ a.rxbtn{margin-top:50px;}
 	.pro_list{padding:0 30px;}
 	.pro_list li .name, .about_list li .name,.pro_list li .price, .about_list li .price{font-size:18px;}
 	.kv_pic li a{width: 35%;height: 60px;background: #fff;color: #000;text-align: center;line-height: 60px;font-size:18px;position: absolute;z-index: 10;bottom:15%;left: 50%;margin-left:-18%;border-radius: 3px;}
-.gpic{position: relative;}
-.gpic h3{position: absolute;z-index: 10;color: #fff;font-size:36px;width: 100%;text-align: center;top: 25%;}
-.gpic .abtn{width: 160px;height: 50px;background: #fff;color: #000;text-align: center;line-height: 50px;font-size:18px;position: absolute;z-index: 10;top:60%;left: 50%;margin-left:-80px;display: block;border-radius: 3px;}
-.ruxin{background: url(../images/bg1.png) no-repeat -100% -100px;}
-.gpic .abtn2{width: 160px;height: 40px;background: #fff;color: #000;text-align: center;line-height: 40px;font-size:14px;position: absolute;z-index: 10;top:65%;left: 10%;display: block;border-radius: 3px;}
+	.gpic{position: relative;}
+	.gpic h3{position: absolute;z-index: 10;color: #fff;font-size:36px;width: 100%;text-align: center;top: 25%;}
+	.gpic .abtn{width: 160px;height: 50px;background: #fff;color: #000;text-align: center;line-height: 50px;font-size:18px;position: absolute;z-index: 10;top:60%;left: 50%;margin-left:-80px;display: block;border-radius: 3px;}
+	.ruxin{background: url(../images/bg1.png) no-repeat -100% -100px;}
+	.gpic .abtn2{width: 160px;height: 40px;background: #fff;color: #000;text-align: center;line-height: 40px;font-size:14px;position: absolute;z-index: 10;top:65%;left: 10%;display: block;border-radius: 3px;}
 }
 @media (min-width:992px){
 	.about_pic{width:150%;}
@@ -184,17 +188,18 @@ a.rxbtn{margin-top:50px;}
 	.gpic{width: 100%;overflow: hidden;}
 	.gpic img{width: auto;width:150%;margin-top:50px;position: relative;left:-25%;}
 	.kv_pic li a{width: 200px;height: 50px;background: #fff;color: #000;text-align: center;line-height: 50px;font-size:18px;position: absolute;z-index: 10;bottom:20%;left:62.5%;margin-left:0;border-radius: 3px;}
-.gpic{position: relative;}
-.gpic h3{position: absolute;z-index: 10;color: #fff;font-size:40px;left:9%;text-align: left;top: 45%;margin:0;}
-.gpic .abtn{width: 200px;height: 50px;background: #fff;color: #000;text-align: center;line-height: 50px;font-size:18px;position: absolute;z-index: 10;top:65%;left: 9%;display: block;border-radius: 3px;margin-left:0;}
+	.gpic{position: relative;}
+	.gpic h3{position: absolute;z-index: 10;color: #fff;font-size:40px;left:9%;text-align: left;top: 45%;margin:0;}
+	.gpic .abtn{width: 200px;height: 50px;background: #fff;color: #000;text-align: center;line-height: 50px;font-size:18px;position: absolute;z-index: 10;top:65%;left: 9%;display: block;border-radius: 3px;margin-left:0;}
+	.gpic .abtn2{width: 200px;height: 50px;background: #fff;color: #000;text-align: center;line-height: 50px;font-size:18px;position: absolute;z-index: 10;top:65%;left: 9%;display: block;border-radius: 3px;}
+	.title_name{padding-top:100px}
+	.title_name i{width: 30px;height: 8px;background: #DCD52C;display: block;left: 50%;margin-left:-15px;position: absolute;z-index: 1;top: 160px;}
 
-.gpic .abtn2{width: 200px;height: 50px;background: #fff;color: #000;text-align: center;line-height: 50px;font-size:18px;position: absolute;z-index: 10;top:65%;left: 9%;display: block;border-radius: 3px;}
-.title_name{padding-top:100px}
-.title_name i{width: 30px;height: 8px;background: #DCD52C;display: block;left: 50%;margin-left:-15px;position: absolute;z-index: 1;top: 160px;}
+	.shishang{background: url(../images/bg1.png) no-repeat -300px bottom;}
+	.ruxin{background: url(../images/bg1.png) no-repeat 800px 10px;}
 
 
-.shishang{background: url(../images/bg1.png) no-repeat -300px bottom;}
-.ruxin{background: url(../images/bg1.png) no-repeat 800px 10px;}
+
 }	
 @media (min-width:1200px){
 	.about_pic{width:100%;}
@@ -218,11 +223,11 @@ a.rxbtn{margin-top:50px;}
 	.gpic{width: 100%;overflow: hidden;}
 	.gpic img{width: auto;width:100%;margin-top:50px;position: relative;left:0;}
 	.kv_pic li a{width: 200px;height: 50px;background: #fff;color: #000;text-align: center;line-height: 50px;font-size:18px;position: absolute;z-index: 10;bottom:20%;left:62.5%;margin-left:0;}
-.gpic{position: relative;}
-.gpic h3{position: absolute;z-index: 10;color: #fff;font-size:36px;left:22%;text-align: left;top: 46%;margin:0;}
-.gpic .abtn,.gpic .abtn2{width: 200px;height: 50px;background: #fff;color: #000;text-align: center;line-height: 50px;font-size:18px;position: absolute;z-index: 10;top:65%;left: 22%;display: block;border-radius: 3px;margin-left:0;}
-.shishang{background: url(../images/bg1.png) no-repeat -300px bottom;}
-.ruxin{background: url(../images/bg1.png) no-repeat 190% 10px;}
+	.gpic{position: relative;}
+	.gpic h3{position: absolute;z-index: 10;color: #fff;font-size:36px;left:22%;text-align: left;top: 46%;margin:0;}
+	.gpic .abtn,.gpic .abtn2{width: 200px;height: 50px;background: #fff;color: #000;text-align: center;line-height: 50px;font-size:18px;position: absolute;z-index: 10;top:65%;left: 22%;display: block;border-radius: 3px;margin-left:0;}
+	.shishang{background: url(../images/bg1.png) no-repeat -300px bottom;}
+	.ruxin{background: url(../images/bg1.png) no-repeat 190% 10px;}
 
 
 }	
