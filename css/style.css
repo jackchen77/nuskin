@@ -241,8 +241,8 @@ a.rxbtn{margin-top:50px;}
   0%{transform: translateY(0);}
   50%{transform: translateY(10px);}
   100%{transform: translateY(0);}
-}
 
+}	
 .about_nav{position: relative;margin-top:30px;}
 .about_pagination{position: absolute;left: 50%;top: 50%;transform: translate(-50%,-50%);}
 .about_pagination .swiper-pagination-bullet{border:1px solid #999;background:#fff;width:10px;height:10px;margin:0 5px;opacity: 1;}
