@@ -180,7 +180,7 @@ a.rxbtn{margin-top:50px;}
 	.copyright a{margin-right:10px;float:right}
 	.gpic{width: 100%;overflow: hidden;}
 	.gpic img{width: auto;width:150%;margin-top:50px;position: relative;left:-25%;}
-	.kv_pic li a{width: 200px;height: 50px;background: #fff;color: #000;text-align: center;line-height: 50px;font-size:18px;position: absolute;z-index: 10;bottom:20%;right: 17%;margin-left:0;left:auto;border-radius: 3px;}
+	.kv_pic li a{width: 200px;height: 50px;background: #fff;color: #000;text-align: center;line-height: 50px;font-size:18px;position: absolute;z-index: 10;bottom:20%;left:62.5%;margin-left:0;border-radius: 3px;}
 .gpic{position: relative;}
 .gpic h3{position: absolute;z-index: 10;color: #fff;font-size:40px;left:9%;text-align: left;top: 45%;margin:0;}
 .gpic .abtn{width: 200px;height: 50px;background: #fff;color: #000;text-align: center;line-height: 50px;font-size:18px;position: absolute;z-index: 10;top:65%;left: 9%;display: block;border-radius: 3px;margin-left:0;}
