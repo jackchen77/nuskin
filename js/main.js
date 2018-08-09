@@ -46,7 +46,7 @@ function navaSetting(){
 	for(var i=0;i<9;i++){
 		navw+=$(".nav2 a:eq("+i+")").width();
 	}
-	var ws = Math.floor(($(".nav2").width()-navw)/8);
+	var ws = Math.floor(($(".nav2").width()-navw)/8.1);
 	for(var i=0;i<8;i++){
 		$(".nav2 a:eq("+i+")").css({"margin-right":ws+"px"});
 	}
@@ -59,7 +59,6 @@ function bottomNavtoggle(){
 	var upflag = 1;
 	var downflag = 1;
 	$(window).scroll(function(){
-		console.log(otop,$(window).scrollTop())
 		clearTimeout(timeout);
 		var n = ($(window).scrollTop()+$(window).height()) - otop;
         if(n < -5){
