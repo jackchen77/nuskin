@@ -72,10 +72,10 @@ a.mobile_buycar{width: 30px;height: 30px;background: url(../images/mobile_buycar
 .shishang .pro_list li .info{font-size:14px;color:#aaa;padding:0px 30px 50px;text-align: left;}
 
 .ruxin .about_list li .wrap{border:1px solid #ddd;border-bottom:1px solid #ddd;color:#000;text-decoration: none;}
-.ruxin .about_list li .label{font-size:14px;padding:20px 20px 3px;text-align: left;color: #bbb;font-weight: normal;display: block;}
-.ruxin .about_list li .title{font-size:17px;padding:5px 20px 5px;text-align: left;line-height: 24px;margin-bottom:20px;}
-.ruxin .about_list li .info{font-size:13px;color:#ccc;padding:0px 20px 20px;text-align: left;line-height: 22px;}
-.ruxin .about_list li .wrap a{font-size:12px;text-decoration: underline;color: #999;padding:10px 20px 10px;display: block;}
+.ruxin .about_list li .label{font-size:12px;padding:20px 6px 3px;text-align: left;color: #bbb;font-weight: normal;display: block;}
+.ruxin .about_list li .title{font-size:12px;padding:5px 6px 5px;text-align: left;line-height: 18px;margin-bottom:20px; font-weight: bold;}
+.ruxin .about_list li .info{font-size:13px;color:#ccc;padding:0px 6px 20px;text-align: left;line-height: 22px;}
+.ruxin .about_list li .wrap a{font-size:12px;text-decoration: underline;color: #999;padding:10px 6px 10px;display: block;}
 
 .bottom{margin-top:60px;}
 .bottom .bleft{background: #63666B;position: relative;min-height: 320px;}
@@ -87,7 +87,8 @@ a.mobile_buycar{width: 30px;height: 30px;background: url(../images/mobile_buycar
 .left_con li a{color: #fff;margin:15px 0;font-size:12px;display: block;}
 .right_con h3{font-size:18px;color: #fff;padding-top:30px;}
 .follow {overflow: auto;padding-top:20px;padding-bottom:50px;border-bottom:1px solid #767676;display: inline-block;margin-bottom:50px;}
-.follow a{float:left;margin-right:25px;}
+.follow a{float:left;margin-right:25px; width: 45px; height: 45px;}
+.follow a img{width: 100%;}
 .follow a:last-child{margin-right:0;}
 .bottom .right_con .lan{color:#fff;text-decoration: underline;}
 .ruxin{width: 100%;overflow: hidden;}
@@ -207,9 +208,9 @@ a.rxbtn{margin-top:50px;}
 	.box_shadow{opacity: 0;}
 	
 	.news_detail{margin-top:60px;}
-	.news_detail .title{font-size:22px;width: 100%;text-align: center;line-height: 36px;color: #008AAF;}
+	.news_detail .title{font-size:20px;width: 100%;text-align: center;line-height: 36px;color: #008AAF;}
 	.news_detail .issue_date{font-size:15px;color: #aaa;width: 100%;text-align: center;margin-top:18px;}
-	.news_detail .intro{font-size:15px;width: 100%;text-align: center;line-height: 30px;margin-top:20px;}
+	.news_detail .intro{font-size:13px;width: 100%;text-align: center;line-height: 30px;margin-top:20px;}
 	.news_detail h3{font-size:18px;line-height: 36px;padding-top:20px;}
 	
 	.news_detail .share{margin-top:30px;width: 100%;text-align: center;font-size:18px;}
