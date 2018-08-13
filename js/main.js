@@ -1,3 +1,27 @@
+
+var isMobile = {
+    Android: function() {
+        return navigator.userAgent.match(/Android/i) ? true : false;
+    },
+    BlackBerry: function() {
+        return navigator.userAgent.match(/BlackBerry/i) ? true : false;
+    },
+    iOS: function() {
+        return navigator.userAgent.match(/iPhone|iPad|iPod/i) ? true : false;
+    },
+    Windows: function() {
+        return navigator.userAgent.match(/IEMobile/i) ? true : false;
+    },
+    Windows2: function() {
+        return navigator.userAgent.match(/Windows Phone/i) ? true : false;
+    },
+    
+    any: function() {
+        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Windows() || isMobile.Windows2());
+    }
+};
+
+
 var mySwiper= new Swiper('.kv_pic', {
 	initialSlide:0,
 	loop:true,
@@ -6,8 +30,11 @@ var mySwiper= new Swiper('.kv_pic', {
 	paginationClickable: true, 
 });
 
+
+var slidesPerView = 2;
+if(isMobile.any()) slidesPerView = 3;
 var mySwiper2= new Swiper('.about_pic', {
-	slidesPerView : 3,
+	slidesPerView : slidesPerView,
 	initialSlide:0,
 	loop:true,
 	pagination: '.swiper-pagination2',
